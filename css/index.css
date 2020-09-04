@@ -46,7 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*end of reset*/
+/*general styling*/
 * {
     box-sizing: border-box;
 }
@@ -61,12 +62,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+/*image that spans across top of page*/
 .open-image{
-    height:40vh;
-    size:cover;
-    repeat:no-repeat;
+  width:100%;
 }
+/* */
 #container{
     display:flex;
     justify-content: space-evenly;
