@@ -61,6 +61,12 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+
+.open-image{
+    height:40vh;
+    size:cover;
+    repeat:no-repeat;
+}
 #container{
     display:flex;
     justify-content: space-evenly;
