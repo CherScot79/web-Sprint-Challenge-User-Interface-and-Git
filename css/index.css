@@ -46,7 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* End of Reset*/
+/*General Styles Begins */
 * {
     box-sizing: border-box;
     border: 2px solid gray;
@@ -112,7 +113,7 @@ header .navbar {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+/* used flex-wrap so that the text would wrap instead of running off into no-mans land */
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -138,7 +139,7 @@ header .navbar {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* Used Flex on the Boxes so they would line up easier than using the box model */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -236,7 +237,7 @@ footer nav a {
 /* ABOUT page begins here */
 
 
-.blerb {
+.text {
     margin-bottom: 5%;
 }
 /* top and bottom blerbs */
