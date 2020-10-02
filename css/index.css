@@ -113,7 +113,7 @@ header .navbar {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-/* used flex-wrap so that the text would wrap instead of running off into no-mans land */
+/* used flex-wrap so that the text would wrap instead of running off into no-mans */
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
